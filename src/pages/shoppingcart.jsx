@@ -72,7 +72,7 @@ const shoppingCart = () => {
                   </div>
                 </div>
                 <div>
-                  <p>$30.00</p>
+                  <p style={{float: 'right'}}>$30.00</p>
                 </div>
               </div>
             </div>
