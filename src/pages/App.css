@@ -20,22 +20,26 @@
   width: 100%;
   text-align: center !important;
   margin-top: 40px;
+  height: auto;
+  overflow: hidden;
+
 }
 .categoriesTab img {
   position: absolute;
   top: -50px; /* Adjust based on image size */
   left: 50%;
-  width: 70%;
+  width: 100%;
   transform: translateX(-50%);
   z-index: 1;
 }
 
 .categoriesTab h5 {
-  font-size: 308px;
+  font-size: 450px;
   font-family: Allison;
-  font-weight: 400;
-  margin: 0;
+
   position: relative;
+ 
+  
 }
 /* Categories Design */
 
