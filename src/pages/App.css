@@ -1,0 +1,268 @@
+.App {
+  background: #0b1014;
+  height: 100%;
+  color: white;
+}
+/* Navbar */
+.NavBar {
+  border-bottom: 2px solid #ffffff40;
+  padding: 35px 70px 20px 70px;
+
+}
+.NavBar a{
+  cursor: pointer;
+}
+/* Navbar ends */
+/* Categories  */
+.categoriesTab {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  text-align: center !important;
+  margin-top: 40px;
+}
+.categoriesTab img {
+  position: absolute;
+  top: -50px; /* Adjust based on image size */
+  left: 50%;
+  width: 70%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+.categoriesTab h5 {
+  font-size: 308px;
+  font-family: Allison;
+  font-weight: 400;
+  margin: 0;
+  position: relative;
+}
+/* Categories Design */
+
+/* Navigating Arrow */
+.arror-cursor {
+  background: white;
+  padding: 10px;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+.categoriesMainTab,
+.categoriesHistorical,
+.categoriesTriller,
+.categoriesHealth {
+  width: 267px;
+  height: 187px;
+  top: 122px;
+  left: 22px;
+  padding: 10px 24px 10px 24px;
+  gap: 0px;
+  border-radius: 12px;
+  opacity: 0px;
+  background: #895c8245;
+}
+.categoriesMainTab svg,
+.categoriesHistorical svg,
+.categoriesTriller svg,
+.categoriesHealth svg {
+  width: 60px;
+  height: 60px;
+  padding: 12.69px 10px 13.07px 5.48px;
+  gap: 0px;
+  opacity: 0px;
+}
+.categoriesHistorical {
+  background: #90935e40 !important;
+}
+.categoriesHistorical p {
+  color: #d8e704 !important;
+}
+.categoriesTriller {
+  background: #5d4a358a;
+}
+.categoriesTriller p {
+  color: #ef7d00 !important;
+}
+.categoriesHealth {
+  background: #526c6e59 !important;
+}
+.categoriesHealth p {
+  color: #24d7e3 !important;
+}
+.categoriesMainTab p,
+.categoriesHistorical p,
+.categoriesTriller p,
+.categoriesHealth p {
+  font-family: Lato;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 38.4px;
+  text-align: left;
+  color: #b700e0;
+}
+/* Best selling books */
+.imageCard {
+  cursor: pointer;
+}
+.imageTab {
+  height: 70%;
+  width: 100%;
+  overflow: hidden;
+}
+/* newsletter  */
+.newsletter p {
+  color: #ffffff40;
+  font-size: 24px;
+}
+.newsletter h4 {
+  font-size: 36px;
+  line-height: 49.18px;
+}
+
+.searchBar {
+  position: relative;
+}
+.newsletter input {
+  width: 450px;
+  height: 50px;
+  padding: 18px 30px;
+  gap: 0px;
+  border-radius: 60px;
+  border: 1px solid rgb(146, 138, 138);
+  opacity: 0px;
+  outline: none;
+  background: none;
+}
+.newsletter input:active, .newsletter input:focus{
+  outline: none !important;
+
+}
+.searchBar button {
+  width: 30%;
+  position: absolute;
+  top: 47% !important;
+  background: white;
+  color: #0b1014;
+  transform: translateY(-50%);
+  height: 50px;
+  padding: 18px;
+  right: 100px;
+  border-radius: 60px;
+  font-weight: 900;
+}
+
+/* Footer */
+.mainFooter {
+  background: linear-gradient(
+    251.61deg,
+    #0e131a 36.31%,
+    rgba(14, 19, 26, 0.53) 67.5%
+  );
+}
+.mainFooter ul li {
+  padding: 10px 0px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.descriptionTab h4 {
+  font-size: 20px;
+}
+.descriptionTab p {
+  font-size: 16px !important;
+  font-weight: 400;
+}
+.authorDet {
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27.24px;
+  text-align: left;
+}
+.prodDescriptionTab {
+  font-size: 20px;
+}
+.prodDescriptionTab button {
+  width: Hug (201px) px;
+  height: Hug (46px) px;
+  top: 1457px;
+  left: 391px;
+  padding: 11px 50px 11px 50px;
+  gap: 10px;
+  background: #ffffff1c;
+  border-radius: 12px;
+  border: 1px;
+  opacity: 0px;
+}
+.prodDescriptionTab h6 {
+  color: #b700e0;
+  padding: 10px 0px;
+}
+
+.cartItem h1 {
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 38.73px;
+  text-align: left;
+  color: #b700e0;
+}
+.cartItem h6{
+  margin: 10px 0px;
+  font-size: 15px;
+}
+.cartItem h5{
+  margin: 10px 0px;
+  font-size: 15px;
+  color: #0068E0;
+}
+.infoPage h3{
+  float: right;
+  margin: 15px;
+}
+.infoPage button{
+  margin: 20px 0px;
+  width: 100%;
+  background: #B700E0;
+  border-radius: 12px;
+  padding: 10px;
+}
+.quantityBtn {
+  background-color: grey !important;
+  width: 40% !important;
+  border-radius: 20px !important;
+  text-align: left !important;
+  
+}
+.recentlyViewed{
+  background-color: grey;
+  border-radius:  50px;
+  width: 100%;
+  height: auto;
+  padding: 30px;
+}
+.recentlyViewed p{
+ color: blue;
+}
+.recentlyViewed h4{
+  padding: 10px 0px;
+}
+/* //Cart Modal */
+
+.CartMainDet p {
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+.CartMainDet button {
+  background: #b700e0;
+  color: white;
+  width: 100%;
+  margin: 10px 0px;
+
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 24px;
+  border-radius: 12px;
+}
